@@ -1,0 +1,110 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #ffbb00 -400%, #191414);
+    
+background-blend-mode: multiply;
+
+    color: #fff;
+    margin: 50;
+  
+  }
+  
+  .playlist{
+    background: rgba(178, 137, 56, 0.774);
+    background: linear-gradient(0deg, rgb(223, 154, 17) 0%, rgba(253,212,45,1) 100%);
+}
+
+.nombre-playlist{
+    display: flex;
+    align-items: flex-end;
+}
+
+.imagen-lista img{
+    width: 280px;
+}
+
+.info-playlist{
+    margin-left: 40px;
+}
+
+.lista-titulos{
+    margin: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.lista-titulos li{
+    font-size: 25px;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    text-align: left;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid #282828;
+    color: #b3b3b3;
+  }
+  
+  td {
+    border-bottom: 1px solid #282828;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+
+
+  
+  #album-column {
+    width: 40%;
+  }
+  
+  #added-column {
+    width: 100%;
+  }
+  
+
+  
+  th, td {
+    vertical-align: middle;
+  }
+
+  .song {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.song-info {
+margin-left: 12px;
+}
+
+.song-title {
+margin: 0;
+}
+
+.song-author {
+margin: 0;
+color: #838282;
+font-size: 14px;
+}
+
+
+
+.cell-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .fa-heart{
+    color: #1db954;
+  }
